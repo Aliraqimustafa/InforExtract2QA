@@ -13,7 +13,6 @@ pip install transformers
 ## Usage
 Clone this repository to your local machine.
 ```bash
-Copy code
 git clone https://github.com/your-username/your-repository.git
 cd your-repository
 ```
