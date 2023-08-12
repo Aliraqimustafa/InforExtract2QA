@@ -21,3 +21,11 @@ Run the ```app.py``` script to start the application.
 python app.py
 ```
 Now you're all set! You can access the website and use it to extract information from context to answer your questions.
+
+## Video Overview
+For a brief overview of the site's functionality, you can watch the following video:
+
+[rec-screen (2).webm](https://github.com/Aliraqimustafa/InforExtract2QA/assets/126193386/87c8f02b-3b4c-467a-94e3-f94e4f83de35)
+
+
+Feel free to explore the code and customize it according to your needs. Happy coding!
