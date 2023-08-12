@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Q A</title>   
+    <style>
+        /* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+form {
+    width: 5000px;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 200px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"] {
+    
+    width: 100%;
+    height: 100px ;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 3px solid #ccc;
+    border-radius: 3px;
+}
+
+p {
+    width: 5000px;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 200px;
+    background-color: #e9fff5;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    /* text-align: left; */
+    /* position: absolute;
+            top: 0;
+            left: 0; */
+}
+
+
+    </style> 
+</head>
+<body>
+    <form method="post" action="/" >
+        <label for="context">context :</label> <br><br>
+        <input type="text" name="context" style="font-size: 15px;" value="{{ context }}"><br><br>
+        <label for="question">question :</label> <br><br> 
+        <input type="text" name="question" value="{{ question }}"><br><br>
+        <input type="submit" value="Submit" style="background-color: rgb(103, 255, 111);"><br><br>
+    </form>
+    {% if result %}
+    <p style="font-size: 30px;">{{ result }}</p>
+    {% endif %}
+</body>
+</html>
+
+
+
