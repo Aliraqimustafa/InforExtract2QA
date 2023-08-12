@@ -9,3 +9,16 @@ Before getting started, make sure you have the Transformer library installed. Yo
 ```bash
 pip install transformers
 ```
+
+## Usage
+Clone this repository to your local machine.
+```bash
+Copy code
+git clone https://github.com/your-username/your-repository.git
+cd your-repository
+```
+Run the ```app.py``` script to start the application.
+```bash
+python app.py
+```
+Now you're all set! You can access the website and use it to extract information from context to answer your questions.
