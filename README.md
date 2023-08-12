@@ -13,8 +13,8 @@ pip install transformers
 ## Usage
 Clone this repository to your local machine.
 ```bash
-git clone https://github.com/your-username/your-repository.git
-cd your-repository
+git clone https://github.com/Aliraqimustafa/InforExtract2QA.git
+cd InforExtract2QA
 ```
 Run the ```app.py``` script to start the application.
 ```bash
